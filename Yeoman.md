@@ -22,3 +22,7 @@ $ mkdir micarpeta
 $ cd micarpeta
 $ yo
 ```
+Si no se ejecuta Yeoman volver a instalarlo:  
+$ npm install --global yo  
+$ npm install --global bower  
+$ npm install --global grunt-cli
