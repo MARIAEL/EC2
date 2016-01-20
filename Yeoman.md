@@ -87,6 +87,9 @@ $ grunt serve
 
 Si vemos que no ha cogido el Bootstrap parar el servidor (Ctrl+C) y poner en el terminal:  
 $ bower install bootstrap --save  
+Si aún así no lo instala poner la siguiente linea antes de la hoja de estilos de la cabecera del index:  
+
+    <link rel="stylesheet" href="bower_components/bootstrap//dist/css/bootstrap.css"/>
 
 2.- Creamos las páginas que queremos que tenga nuestra web  
 
