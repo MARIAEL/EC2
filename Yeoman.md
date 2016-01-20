@@ -38,8 +38,9 @@ $ mkdir micarpeta
 $ cd micarpeta
 $ yo
 ```
-Durante la ejecución de Yeoman nos hará unas preguntas:  
-Hay que responder:  
+Durante la ejecución de Yeoman nos hará unas preguntas a las que hay que responder:  
+
+
 What would you like to do?  
 Angular  
 Would you like to use Gulp instead of Grunt?  
