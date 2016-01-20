@@ -53,10 +53,19 @@ Which modules would you like to include?
 Press ENTER con los que haya preseleccionados.  
 
 Una vez haya creado Yeoman hay que arrancar el servidor, para ello pondremos en el terminal  
+
 ```bash
 # 
 $ grunt serve
 
 ```
 
-Ya podemos empezar a trabajar con nuestro archivo web.  
+Ya podemos empezar a trabajar en nuestro proyecto web.  
+
+Cada vez que tengamos que iniciar una nueva sesión de trabajo, hay que ir al terminal y colocarse en la carpeta del proyecto (micarpeta) y desde allí arrancar el servidor.  
+
+```bash
+# 
+$ grunt serve
+
+```
