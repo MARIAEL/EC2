@@ -69,3 +69,22 @@ Cada vez que tengamos que iniciar una nueva sesión de trabajo, hay que ir al te
 $ grunt serve
 
 ```
+
+#PASOS PARA HACER UNA NUEVA WEB  
+
+1.- Abrir el terminal de Bitnami MEAN Strack  
+
+$ ls  
+$ cd apps  
+$ mkdir zapatos  
+$ cd zapatos  
+$ yo angular (responder a las preguntas que nos haga según las indicaciones de más arriba)  
+
+
+Arrancar el servidor  
+
+$ grunt serve  
+
+Si vemos que no ha cogido el Bootstrap parar el servidor (Ctrl+C) y poner en el terminal:  
+$ bower install bootstrap --save  
+
