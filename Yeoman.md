@@ -88,3 +88,20 @@ $ grunt serve
 Si vemos que no ha cogido el Bootstrap parar el servidor (Ctrl+C) y poner en el terminal:  
 $ bower install bootstrap --save  
 
+2.- Creamos las páginas que queremos que tenga nuestra web  
+
+$yo angular:route contacto (pe.)  
+$yo angular:route catalogo (etc..)  
+
+3.- Yeoman nos habrá creado la infraestructura de js y html (que nosotros tendremos que retocar)  
+
+4.- Tendremos que hacer los siguientes cambios:  
+  - En index.html crear las li que sean necesarias  
+
+```bash
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#/">Inicio</a></li>
+              <li><a ng-href="#/empresa">Empresa</a></li>
+              <li><a ng-href="#/contacto">Contacto</a></li>
+            </ul>
+ ``` 
