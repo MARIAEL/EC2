@@ -102,6 +102,42 @@ $yo angular:route catalogo (etc..)
             <ul class="nav navbar-nav">
               <li class="active"><a href="#/">Inicio</a></li>
               <li><a ng-href="#/empresa">Empresa</a></li>
-              <li><a ng-href="#/contacto">Contacto</a></li>
             </ul>
  ``` 
+ Y en el pie los scripts  
+ 
+ ```bash
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/inicio.js"></script>
+        <script src="scripts/controllers/empresa.js"></script>
+  ```  
+  - Luego iremos a la carpeta scripts--> controllers--> inicio.js donde cambiaremos lo que corresponda:  
+```bash  
+angular.module('zapatosApp')
+  .controller('IniciotCtrl', function ($scope) {
+    $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });
+  ```  
+  Lo mismo en la carpeta scripts--> app.js  
+  
+  ```bash
+  .config(function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/inicio.html',
+        controller: 'InicioCtrl'
+      })
+      .when('/empresa', {
+        templateUrl: 'views/empresa.html',
+        controller: 'EmpresaCtrl'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });
+  ```  
+  
