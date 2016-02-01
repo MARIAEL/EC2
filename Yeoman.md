@@ -21,7 +21,9 @@ $ yo --version        # si no funciona  -> npm install --global yo
 $ bower --version     # si no funciona  -> npm install --global bower 
 $ grunt --version     # si no funciona  -> npm install --global grunt-cli
 ```
-
+Hemos de instalar en la carpeta de nuestra web:  
+npm install  
+bower install
 
 # Usar  yeoman para crear web
 
