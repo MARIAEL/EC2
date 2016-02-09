@@ -21,8 +21,9 @@
     # 
 ```
 
-## logo y fuentes
+## logo, fuentes e images  
 1. Si tenemos un logo o fuentes debemos seguir los mismos pasos que en el caso de css y js  
+2. A las imágenes de todas las páginas también hay que cambiarles la ruta (a las del header también).  
 
 ## Páginas
 Ahora podemos ya empezar a crear cada página de nuestra web.  
